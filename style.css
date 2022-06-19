@@ -7,7 +7,7 @@ body {
     background-repeat: no-repeat;
     /* height: 100%; */
     /* width: 100%; */
-    background-size: 1600px 990px;
+    background-size: 1600px 1000px;
     background-attachment:scroll;
     /* background-color: #2941ab; */
     margin: 0;
@@ -60,6 +60,12 @@ body {
    
     
 }
+
+#verticalbar:hover {
+    color: white;
+
+}
+
 
 /* -------------main section----------- */
 
@@ -130,9 +136,16 @@ footer {
 
 }
 
-#footerinfo.a, #footerinfo2.a {
+#footerinfo a, #footerinfo2 a, #footerinfo3 a {
     margin-top: 1em;
     
+    
+
+}
+
+#footerinfo, #footerinfo2, #footerinfo3  {
+    margin-right: 10em; 
+
 
 }
 
@@ -141,6 +154,7 @@ footer {
     flex-direction: column;
     padding: 0 15px;
     justify-self: left;
+    margin-left: 20em;
 
 }
 
